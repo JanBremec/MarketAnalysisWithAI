@@ -395,7 +395,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
 if st.session_state.sidebar_mode == "stock":
     if st.session_state.sidebar_stock:
         sidebar_placeholder.empty()  # Clear previous sidebar content
